@@ -18,6 +18,9 @@ int b = ((int)(Math.random()*255)+1);
 void draw()
 {
 	stroke(r,g,b);
+	beginShape();
+	curveVertex(0, 20);
+	curveVertex(20,20);
 	
 	while(endX <= 300)
 	{
@@ -27,14 +30,14 @@ void draw()
 		startX = endX;
 		startY = endY;
 	}
-	if(mouseClicks < 5)
-	{
-		text("click", 50, 150);
-	}
-	else
-	{
-		text("Game Over", 50, 150);
-	}
+	//if(mouseClicks < 5)
+	//{
+		//text("click", 50, 150);
+	//}
+	//else
+	//{
+		//text("Game Over", 50, 150);
+	//}
 }
 void mousePressed()
 {

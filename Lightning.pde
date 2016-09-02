@@ -30,14 +30,6 @@ void draw()
 		startX = endX;
 		startY = endY;
 	}
-	//if(mouseClicks < 5)
-	//{
-		//text("click", 50, 150);
-	//}
-	//else
-	//{
-		//text("Game Over", 50, 150);
-	//}
 }
 void mousePressed()
 {

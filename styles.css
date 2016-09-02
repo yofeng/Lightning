@@ -1,7 +1,7 @@
 
 body {
-    background-color: rgb(77,209,176);
-    color: rgb(0,0,0);
+    background-color: rgb(101,209,176);
+    color: rgb(0);
     font-family: "Open Sans", sans-serif;
     text-align: center;
 }
@@ -13,7 +13,7 @@ body {
 }
 
 header {
-	
+	color: rgb(255);
 }
 
 footer {

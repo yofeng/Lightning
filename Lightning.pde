@@ -29,7 +29,6 @@ void draw()
 	}
 	if(mouseClicks < 5)
 	{
-		background(0);
 		text("click", 50, 150);
 	}
 	else
